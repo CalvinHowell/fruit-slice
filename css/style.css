@@ -1,0 +1,106 @@
+html{
+    height: 100%;
+    background: radial-gradient(circle,#fff, #ccc);
+}
+
+#container{
+    height: 650px;
+    width: 750px;
+    border-color: #9DD2EA;
+    background-color: aliceblue;
+    margin: 10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 0px 0px #000;
+    position: relative;
+}
+
+#score{
+    background-color: purple;
+    border-color: #F1FF92;
+    color: black;
+    padding: 11px;
+    position: absolute;
+    left: 695px;
+    box-shadow: 0px 4px 0px #000;
+}
+
+#fruitscontainer{
+    width: 750px;
+    height: 500px;
+    margin: 50px auto 10px auto;
+    background-color: white;
+    box-shadow: 0px 4px #000;
+    font-size: 100px;
+    text-align: center;
+    font-family: cursive, sans-serif;
+    color: black;
+    position: relative;
+    overflow: hidden;
+}
+
+#instruction{
+    height: 50px;
+    width: 450px;
+    background-color: purple;
+    margin: 10px auto;
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 4px #000;
+}
+
+#startreset{
+    width: 78px;
+    padding: 10px;
+    background-color: rgba(225,225,225,0.5);
+    margin: 0 auto;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0px 4px rgba(0,0,0,0.2);
+    text-align: center;
+    position: relative;
+    transition: all 0.2s;
+}
+
+#startreset:active{
+    background-color: #9C89F6;
+    color: white;
+    box-shadow: 0px 0px #000;
+    top: 4px;
+}
+
+#trialsleft{
+    height: 20px;
+    width: 80px;
+    padding: 10px;
+    position: absolute;
+    background-color: purple;
+    border-radius: 3px;
+    box-shadow: 0px 4px #000;
+}
+
+#gameover{
+    height: 200px;
+    width: 500px;
+    background: linear-gradient(purple,pink,yellow);
+    color: white;
+    font-size: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    top: 170px;
+    left: 141px;
+    z-index: 2;
+    display: none;
+}
+
+.lives{
+    width: 16px;
+    height: 16px;
+    margin: 0px 5px;
+}
+
+.basket{
+    display: none;
+    position: absolute;
+}
